@@ -1,0 +1,1293 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+
+
+
+
+body{
+    background-image: url(images/fondo3.jpeg);
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.logo {
+    width: 100%;
+    height: 190px;
+    margin-top: 20px;
+  
+}
+
+
+
+
+.nav-list {
+    background-color: rgb(0, 0, 0, 0.70);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 20px 20px;
+}
+
+span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ span a:hover{
+    background: rgb(159, 156, 156, 0.75);
+    padding: 20px 20px;
+ }
+
+.deal {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 40px;
+    margin-top: 110px;
+    margin-left: 750px;
+   
+
+}
+
+.dealdesc{
+    margin-top: 50px;
+    margin-left: 700px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(201, 244, 92, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-style: italic;    
+
+}
+
+
+.dealimg{
+    width: 40%;
+    height: 600px;
+    margin-left: 60px;
+    margin-top: -400px;
+    border-top: 160px;
+}
+
+.imgicon {
+   margin: 35px;
+   padding: 5px 5px;
+
+}
+.lista-menu {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Albert Sans', sans-serif;
+    font-style: italic;
+    background-image:url(/Proyect1/images/madera.jpeg);
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+
+}
+
+
+
+.Button {
+    padding-bottom: 20px 20px;
+}
+
+
+.menulink{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 20px 20px;
+
+}
+
+.About {
+    width: 100%;
+    height: 650px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    border: #fff;
+    background-color: rgb(8, 8, 8, 0.80);
+    color: #fff;
+    font-size: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*---Location css----*/
+.box{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.imglo{
+  margin-top: 60px;
+  margin-left: 190px;
+
+
+
+}
+
+
+.lodes1{
+   display: flex;
+
+
+
+
+}
+.menulist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottons{
+    display: flex;
+   
+
+}
+
+
+.btn {
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    position: relative;
+    color: #fff;
+    border-radius: 40px;
+    background-color: rgb(15, 46, 47);
+    transition: transform 0.3s ease;
+    margin: 150px;
+    margin-top: -20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: 90vh;
+
+    overflow: hidden;
+
+}
+
+
+.banner .carousel {
+    width: 800px;
+    height: 200px;
+    margin: 100px auto 0;
+    overflow: visible;
+
+
+}
+
+
+.carousel img {
+    border-radius: 20px;
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*-----Menu Styless--------*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color: rgb(0, 0, 0, 0.75);
+    color: #fff;
+  }
+  
+  .menu1 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .menu {
+      font-size: 16px;
+    }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .menu-item-image {
+      width: 125px;
+      height: 125px;
+    }
+  }
+  
+  
+  
+
+
+
+
+
+
+/*---------Full Responsive-----------*/
+
+
+
+
+/**-------DESKTOP-------**/
+
+@media (min-width: 1024px) and (max-width:1199px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+     }
+    
+    
+    
+    
+    
+    body{
+        background-image: url(images/fondo3.jpeg);
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size:cover;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    
+    
+    .logo {
+        width: 100%;
+        height: 190px;
+        margin-top: 20px;
+      
+    }
+    
+    
+    
+    
+    .nav-list {
+        background-color: rgb(0, 0, 0, 0.70);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px;
+        padding: 20px 20px;
+    }
+    
+    span a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+     span a:hover{
+        background: rgb(159, 156, 156, 0.75);
+        padding: 20px 20px;
+     }
+    
+    .deal {
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+        font-size: 40px;
+        margin-top: 110px;
+        margin-left: 750px;
+       
+    
+    }
+    
+    .dealdesc{
+        margin-top: 50px;
+        margin-left: 700px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        position: relative;
+        width: 600px;
+        height: 300px;
+        background-color: rgba(201, 244, 92, 0.5);
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-style: italic;    
+    
+    }
+    
+    
+    .dealimg{
+        width: 40%;
+        height: 600px;
+        margin-left: 60px;
+        margin-top: -400px;
+        border-top: 160px;
+    }
+    
+    .imgicon {
+       margin: 35px;
+       padding: 5px 5px;
+    
+    }
+    .lista-menu {
+        text-align: center;
+        font-size: 80px;
+        font-family: 'Albert Sans', sans-serif;
+        font-style: italic;
+        background-image:url(/Proyect1/images/madera.jpeg);
+        width: 100%;
+        height: 100px;
+        margin-top: 150px;
+        margin-bottom: 80px;
+    
+    }
+    
+    
+    
+    .Button {
+        padding-bottom: 20px 20px;
+    }
+    
+    
+    .menulink{
+        display: flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px;
+        padding: 20px 20px;
+    
+    }
+    
+    .About {
+        width: 100%;
+        height: 650px;
+        margin-top: -30px;
+        display: flex;
+        justify-content: center;
+        border: #fff;
+        background-color: rgb(8, 8, 8, 0.80);
+        color: #fff;
+        font-size: 50px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*---Location css----*/
+    .box{
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .imglo{
+      margin-top: 60px;
+      margin-left: 190px;
+    
+    
+    
+    }
+    
+    
+    .lodes1{
+       display: flex;
+    
+    
+    
+    
+    }
+    .menulist {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .bottons{
+        display: flex;
+       
+    
+    }
+    
+    
+    .btn {
+        text-decoration: none;
+        padding: 20px 50px;
+        font-size: 1.5rem;
+        position: relative;
+        color: #fff;
+        border-radius: 40px;
+        background-color: rgb(15, 46, 47);
+        transition: transform 0.3s ease;
+        margin: 150px;
+        margin-top: -20px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .banner{
+        width: 100%;
+        height: 90vh;
+    
+        overflow: hidden;
+    
+    }
+    
+    
+    .banner .carousel {
+        width: 800px;
+        height: 200px;
+        margin: 100px auto 0;
+        overflow: visible;
+    
+    
+    }
+    
+    
+    .carousel img {
+        border-radius: 20px;
+        -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*-----Menu Styless--------*/
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1.5em;
+        background-color: rgb(0, 0, 0, 0.75);
+        color: #fff;
+      }
+      
+      .menu1 {
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+      }
+      
+      .menu-group-heading {
+        margin: 0;
+        padding-bottom: 1em;
+        border-bottom: 2px solid #ccc;
+        text-align: center;
+      }
+      
+      .menu-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+        padding: 1.5em 0;
+      }
+      
+      .menu-item {
+        display: flex;
+      }
+      
+      .menu-item-image {
+        width: 80px;
+        height: 80px;
+        flex-shrink: 0;
+        object-fit: cover;
+        margin-right: 1.5em;
+      }
+      
+      .menu-item-text {
+        flex-grow: 1;
+      }
+      
+      .menu-item-heading {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+      }
+      
+      .menu-item-name {
+        margin-right: 1.5em;
+      }
+      
+      .menu-item-description {
+        line-height: 1.6;
+      }
+      
+      @media screen and (min-width: 992px) {
+        .menu {
+          font-size: 16px;
+        }
+      
+        .menu-group {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      
+        .menu-item-image {
+          width: 125px;
+          height: 125px;
+        }
+      }
+}
+
+
+/**--------TABLET-------**/
+@media screen and (min-width: 481px) and (max-width: 1023px){
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+
+
+
+body{
+    background-image: url(images/fondo3.jpeg);
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.logo {
+    width: 100%;
+    height: 110px;
+    margin-top: 20px;
+  
+}
+
+
+
+
+.nav-list {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 15px 10px;
+}
+
+span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ span a:hover{
+    background: rgb(159, 156, 156, 0.75);
+    padding: 15px 10px;
+ }
+
+.deal {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 50%;
+   
+
+}
+
+.dealdesc{
+    margin-top: 50px;
+    margin-left: 50%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 40%;
+    height: 630px;
+    background-color: rgba(201, 244, 92, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-style: italic;    
+
+}
+
+
+.dealimg{
+    width: 35%;
+    height: 450px;
+    margin-left: 60px;
+    margin-top: -550px;
+    border-top: 160px;
+}
+
+.imgicon {
+   width: 350px;
+   height: 250px;
+   align-content: center;
+
+}
+.lista-menu {
+    font-size: 60px;
+    font-family: 'Albert Sans', sans-serif;
+    font-style: italic;
+    background-image:url(/Proyect1/images/madera.jpeg);
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    align-items: center;
+  
+}
+
+
+ 
+
+
+
+.Button {
+    padding-bottom: 20px 20px;
+}
+
+
+.menulink{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 20px 20px;
+
+}
+
+.About {
+    width: 100%;
+    height: 650px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    border: #fff;
+    background-color: rgb(8, 8, 8, 0.80);
+    color: #fff;
+    font-size: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*---Location css----*/
+.box{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.imglo{
+  margin-top: 60px;
+  margin-left: 190px;
+
+
+
+}
+
+
+.lodes1{
+   display: flex;
+
+
+
+
+}
+.menulist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottons{
+    display: flex;
+   
+
+}
+
+
+.btn {
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    position: relative;
+    color: #fff;
+    border-radius: 40px;
+    background-color: rgb(15, 46, 47);
+    transition: transform 0.3s ease;
+    margin: 150px;
+    margin-top: -20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: 90vh;
+
+    overflow: hidden;
+
+}
+
+
+.banner .carousel {
+    width: 800px;
+    height: 200px;
+    margin: 100px auto 0;
+    overflow: visible;
+
+
+}
+
+
+.carousel img {
+    border-radius: 20px;
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*-----Menu Styless--------*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color: rgb(0, 0, 0, 0.75);
+    color: #fff;
+  }
+  
+  .menu1 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .menu {
+      font-size: 16px;
+    }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .menu-item-image {
+      width: 125px;
+      height: 125px;
+    }
+  }
+}
+
+
+/**--------SMARTPHONE-----**/
+
+@media (min-width: 320px) and (max-width: 480px){
+    
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+
+
+
+
+body{
+    background-image: url(/Proyect1/images/fondo3.jpeg);
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.logo {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+  
+}
+
+
+
+
+.nav-list {
+    background-color: rgb(0, 0, 0, 0.70);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 13px 13px;
+}
+
+span a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ span a:hover{
+    background: rgb(159, 156, 156, 0.75);
+    padding: 13px 10px;
+ }
+
+.deal {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 40px;
+    margin-top: 110px;
+    margin-left: 750px;
+   
+
+}
+
+.dealdesc{
+    margin-top: 50px;
+    margin-left: 700px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(201, 244, 92, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-style: italic;    
+
+}
+
+
+.dealimg{
+    width: 40%;
+    height: 600px;
+    margin-left: 60px;
+    margin-top: -400px;
+    border-top: 160px;
+}
+
+.imgicon {
+   margin: 35px;
+   padding: 5px 5px;
+
+}
+.lista-menu {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Albert Sans', sans-serif;
+    font-style: italic;
+    background-image:url(/Proyect1/images/madera.jpeg);
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+
+}
+
+
+
+.Button {
+    padding-bottom: 20px 20px;
+}
+
+
+.menulink{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 20px 20px;
+
+}
+
+.About {
+    width: 100%;
+    height: 650px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    border: #fff;
+    background-color: rgb(8, 8, 8, 0.80);
+    color: #fff;
+    font-size: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*---Location css----*/
+.box{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.imglo{
+  margin-top: 60px;
+  margin-left: 190px;
+
+
+
+}
+
+
+.lodes1{
+   display: flex;
+
+
+
+
+}
+.menulist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottons{
+    display: flex;
+   
+
+}
+
+
+.btn {
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    position: relative;
+    color: #fff;
+    border-radius: 40px;
+    background-color: rgb(15, 46, 47);
+    transition: transform 0.3s ease;
+    margin: 150px;
+    margin-top: -20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    width: 100%;
+    height: 90vh;
+
+    overflow: hidden;
+
+}
+
+
+.banner .carousel {
+    width: 800px;
+    height: 200px;
+    margin: 100px auto 0;
+    overflow: visible;
+
+
+}
+
+
+.carousel img {
+    border-radius: 20px;
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*-----Menu Styless--------*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color: rgb(0, 0, 0, 0.75);
+    color: #fff;
+  }
+  
+  .menu1 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .menu {
+      font-size: 16px;
+    }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .menu-item-image {
+      width: 125px;
+      height: 125px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+/* Imports google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+
+
